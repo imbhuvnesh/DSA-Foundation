@@ -7,15 +7,18 @@ sbhi number se divide kra skte h*/
 public class isnumPrime {
     //this method is very naive and time consuming
     public static void isPrime(int num) {
-
+        boolean isPrime = true;
         for (int i = 2; i < num; i++) {
             if (num % i == 0) { // matbal remainder 0 h, divide hogya
-                System.out.println("Not prime");
-                break;
-            } else {
-                System.out.println("prime");
+                isPrime = false;
                 break;
             }
+        }
+        if (isPrime) {
+            System.out.println("Prime");
+        }
+        else {
+            System.out.println("Not Prime");
         }
     }
 
@@ -25,11 +28,8 @@ public class isnumPrime {
                 System.out.println("not prime");
                 break;
             }
-            else {
-                System.out.println("prime");
-                break;
-            }
         }
+        System.out.println("Prime");
     }
 
     public static void main(String[] args) {
