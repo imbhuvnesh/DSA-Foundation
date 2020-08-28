@@ -20,15 +20,15 @@ public class Pattern8 {
 
         scn.close();
 
-        int spaces = n - 1;
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= spaces; j++) {
-                System.out.print("\t");
+        for (int i = 1; i <= n; i++) {      //row k lie
+            for (int j = 1; j <= n; j++) {      //column k lie
+                if (i + j == n + 1) {           // jab i + j == n + 1 hoga tbhi print
+                    System.out.print("*\t");
+                }
+                else {
+                    System.out.print("\t");
+                }
             }
-            for (int j = 1; j <= 1; j++) {
-                System.out.print("*\t");
-            }
-            spaces--;
             System.out.println();
         }
     }

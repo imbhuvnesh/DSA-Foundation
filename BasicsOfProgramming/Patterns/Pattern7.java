@@ -20,15 +20,13 @@ public class Pattern7 {
 
         scn.close();
         
-        int spaces = 0; //max
-        for (int i = 1; i <= n; i++) {
-            for (int j = 0; j < spaces; j++) {
-                System.out.print("\t");
+        for (int i = 1; i <= n; i++) {      //bhar vala row ke lie
+            for (int j = 1; j <= n; j++) { //andar wla clumn k lie
+                if(i == j)
+                    System.out.print("*\t");        //jab i == j hoga tbhi print krna
+                else
+                    System.out.print("\t");    
             }
-            for (int j = 1; j <= 1; j++) { //just printing 1 star per line
-                System.out.print("*\t");
-            }
-            spaces++;
             System.out.println();
         }
     }
