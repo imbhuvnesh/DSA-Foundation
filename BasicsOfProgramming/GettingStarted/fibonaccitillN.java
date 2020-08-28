@@ -1,3 +1,5 @@
+package GettingStarted;
+
 import java.util.Scanner;
 
 /*is me yr fibonnaci series print krni h, abhi hume recursion nhi aata toh

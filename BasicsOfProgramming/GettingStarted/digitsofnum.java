@@ -1,3 +1,5 @@
+package GettingStarted;
+
 import java.util.Scanner;
 
 /*is question me hume given number ke har digit ko print krana

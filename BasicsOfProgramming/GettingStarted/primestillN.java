@@ -1,3 +1,5 @@
+package GettingStarted;
+
 import java.util.Scanner;
 
 //iss question me hume ek range ke andar primes print krne h

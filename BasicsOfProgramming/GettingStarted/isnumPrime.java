@@ -1,3 +1,5 @@
+package GettingStarted;
+
 import java.util.Scanner;
 
 //is question me hume check krna h ke given number prime hai ki nhi

@@ -1,3 +1,5 @@
+package GettingStarted;
+
 import java.util.Scanner;
 
 // 1. You are given a number following certain constraints.

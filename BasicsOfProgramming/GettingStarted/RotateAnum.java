@@ -1,3 +1,5 @@
+package GettingStarted;
+
 import java.util.Scanner;
 
 //iss me yarr ek given no. ko k time rotate krna h

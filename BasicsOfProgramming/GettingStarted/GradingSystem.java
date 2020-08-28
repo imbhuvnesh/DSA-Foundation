@@ -1,3 +1,5 @@
+package GettingStarted;
+
 //ye question if else ka h isme marks ke hisab se usko grade krna h
 import java.util.*;
 

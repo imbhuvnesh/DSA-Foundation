@@ -1,3 +1,5 @@
+package GettingStarted;
+
 import java.util.Scanner;
 
 //issme pythagoran triplet check krna h

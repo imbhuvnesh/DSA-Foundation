@@ -1,3 +1,5 @@
+package GettingStarted;
+
 import java.util.Scanner;
 
 //isme question me given no. ke andar kitne digits hai vo count krne h

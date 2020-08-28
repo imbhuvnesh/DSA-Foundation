@@ -1,3 +1,5 @@
+package GettingStarted;
+
 import java.util.Scanner;
 
 //bhot easy question hai yrr isme hume ek no. ka reverse bnana h

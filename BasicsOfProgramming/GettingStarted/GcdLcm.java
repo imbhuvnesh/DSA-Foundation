@@ -1,3 +1,5 @@
+package GettingStarted;
+
 import java.util.Scanner;
 
 /*isme yrrr hume hcf aur lcm nikalna h 2 given numbers ka 
