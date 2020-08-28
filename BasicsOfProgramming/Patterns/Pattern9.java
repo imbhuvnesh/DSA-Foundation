@@ -18,15 +18,15 @@ public class Pattern9 {
         int n = scn.nextInt();
 
         scn.close();
-        int spaces = 0;
         for (int i = 1; i <= n; i++) {
-            for (int j = 0; j <= spaces; j++) {
-                System.out.print(" ");
+            for (int j = 1; j <= n; j++) {
+                if (i == j || i + j == n + 1) {
+                    System.out.print("*\t");
+                }
+                else {
+                    System.out.print("\t");
+                }
             }
-            for (int j = 1; j <= 1; j++) {
-                System.out.print("*");
-            }
-            spaces++;
             System.out.println();
         }
     }
