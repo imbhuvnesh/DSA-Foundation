@@ -26,6 +26,9 @@ public class Spiral_Display {
         int totalElements = r * c;
         int counter = 0;
 
+        //Solve it in Boxes
+        // like outer box , inner box
+
         while (counter < totalElements) {
             //left wall
             for (int i = minr, j = minc; i <= maxr && counter < totalElements; i++) {
